@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='QR1'>
+    <link name='link_0'>
+      <pose frame=''>0 -0 0 0 -1.57 -3.14159</pose>
+      <visual name='visual'>
+        <geometry>
+          <box>
+            <size>0.5 0.5 .01</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://QR1/materials/scripts</uri>
+            <uri>model://QR1/materials/textures</uri>
+            <name>vrc/QR1</name>
+          </script>
+        </material>
+        <cast_shadows>1</cast_shadows>
+      </visual>
+      <collision name='collision'>
+        <geometry>
+          <box>
+            <size>0.5 0.5 .1</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+    <static>1</static>
+  </model>
+</sdf>

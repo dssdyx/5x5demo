@@ -1,0 +1,15 @@
+material vrc/QR1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture QR1.png
+				filtering anistropic
+				max_anisotropy 16
+			}
+		}
+	}
+}
